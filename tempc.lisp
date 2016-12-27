@@ -1,3 +1,4 @@
+;clisp dependancy
 (format t "Celcius to Fahrenheit ~%") 
 (defun cf (cf) (format t "F: ~2$ ~%" (+ (* (/ 9 5) cf) 32)))
 (cf (read))
